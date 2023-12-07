@@ -1,11 +1,8 @@
-var express = require('express')
+var express = require("express");
+var router = express.Router();
+const Note = require("../Controller/note.controller");
 
-var router = express.Router()
+router.post("/", Note.post_delivery);
+router.get("/:id", Note.get_delivery);
 
-const Note = require('../Controller/note.controller')
-
-router.post('/', Note.post_delivery)
-
-router.get('/:id', Note.get_delivery)
-
-module.exports = router
+module.exports = router;
