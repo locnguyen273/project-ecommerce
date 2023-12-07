@@ -1,11 +1,8 @@
-var express = require('express')
+var express = require("express");
+var router = express.Router();
+const Delivery = require("../Controller/delivery.controller");
 
-var router = express.Router()
+router.post("/", Delivery.post_delivery);
+router.get("/:id", Delivery.get_delivery);
 
-const Delivery = require('../Controller/delivery.controller')
-
-router.post('/', Delivery.post_delivery)
-
-router.get('/:id', Delivery.get_delivery)
-
-module.exports = router
+module.exports = router;
