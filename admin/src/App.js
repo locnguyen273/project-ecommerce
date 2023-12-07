@@ -1,55 +1,54 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect
 } from "react-router-dom";
 
-import AuthContextProvider from './component/context/Auth'
+import AuthContextProvider from './components/context/Auth'
 
-import Header from './component/Shared/Header'
-import Menu from './component/Shared/Menu';
+import Header from './components/Shared/Header'
+import Menu from './components/Shared/Menu';
 
-import Product from './component/Product/Product'
-import CreateProduct from './component/Product/CreateProduct'
-import UpdateProduct from './component/Product/UpdateProduct'
+import Product from './components/Product/Product'
+import CreateProduct from './components/Product/CreateProduct'
+import UpdateProduct from './components/Product/UpdateProduct'
 
-import Category from './component/Category/Category'
-import CreateCategory from './component/Category/CreateCategory'
-import DetailCategory from './component/Category/DetailCategory'
-import UpdateCategory from './component/Category/UpdateCategory'
+import Category from './components/Category/Category'
+import CreateCategory from './components/Category/CreateCategory'
+import DetailCategory from './components/Category/DetailCategory'
+import UpdateCategory from './components/Category/UpdateCategory'
 
-import Permission from './component/Permission/Permission'
-import CreatePermission from './component/Permission/CreatePermission'
-import UpdatePermission from './component/Permission/UpdatePermission'
+import Permission from './components/Permission/Permission'
+import CreatePermission from './components/Permission/CreatePermission'
+import UpdatePermission from './components/Permission/UpdatePermission'
 
-import User from './component/User/User'
-import CreateUser from './component/User/CreateUser'
-import UpdateUser from './component/User/UpdateUser'
+import User from './components/User/User'
+import CreateUser from './components/User/CreateUser'
+import UpdateUser from './components/User/UpdateUser'
 
-import UserCus from './component/UserCus/UserCus'
-import CreateUserCus from './component/UserCus/CreateUserCus'
-import UpdateUserCus from './component/UserCus/UpdateUserCus'
+import UserCus from './components/UserCus/UserCus'
+import CreateUserCus from './components/UserCus/CreateUserCus'
+import UpdateUserCus from './components/UserCus/UpdateUserCus'
 
-import Order from './component/Order/Order'
-import DetailOrder from './component/Order/DetailOrder'
-import ConfirmOrder from './component/Order/ConfirmOrder'
-import Delivery from './component/Order/Delivery'
-import ConfirmDelivery from './component/Order/ConfirmDelivery'
-import CompletedOrder from './component/Order/CompletedOrder'
-import CancelOrder from './component/Order/CancelOrder'
-import Login from './component/Login/Login';
-import NotFound from './component/NotFound/NotFound';
-import Coupon from './component/Conpon/Coupon';
+import Order from './components/Order/Order'
+import DetailOrder from './components/Order/DetailOrder'
+import ConfirmOrder from './components/Order/ConfirmOrder'
+import Delivery from './components/Order/Delivery'
+import ConfirmDelivery from './components/Order/ConfirmDelivery'
+import CompletedOrder from './components/Order/CompletedOrder'
+import CancelOrder from './components/Order/CancelOrder'
+import Login from './components/Login/Login';
+import NotFound from './components/NotFound/NotFound';
+import Coupon from './components/Conpon/Coupon';
 
-import CreateCoupon from './component/Conpon/CreateCoupon';
-import UpdateCoupon from './component/Conpon/UpdateCoupon';
-import Sale from './component/Sale/Sale';
-import CreateSale from './component/Sale/CreateSale';
-import UpdateSale from './component/Sale/UpdateSale';
+import CreateCoupon from './components/Conpon/CreateCoupon';
+import UpdateCoupon from './components/Conpon/UpdateCoupon';
+import Sale from './components/Sale/Sale';
+import CreateSale from './components/Sale/CreateSale';
+import UpdateSale from './components/Sale/UpdateSale';
 
 function App() {
   return (
