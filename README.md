@@ -19,9 +19,7 @@
 
 
 ## Contributors
-- TienKim
-- QuocToan
-- MinhHieu
+- Tấn Lộc 
 
 ## ERD
 <img src="https://firebasestorage.googleapis.com/v0/b/todo-app-tienkim.appspot.com/o/diagram.PNG?alt=media&token=656d0b0c-0540-4257-a90a-3c024f50946b" />
@@ -141,7 +139,7 @@
     + 1 Note sẽ thuộc 1 order
 
 ## API
-ROOT API ENDPOINT : http://tienkim9920.herokuapp.com
+ROOT API ENDPOINT : 
 
 ```bash
 
